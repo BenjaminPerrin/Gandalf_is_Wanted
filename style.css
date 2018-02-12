@@ -1,0 +1,69 @@
+#el_gandalf{
+    width:250px;
+    height:300px;
+    position:relative;
+    font-family : Arial, sans-serif;
+}
+
+/* Opacité de base */
+
+#el_gandalf img{
+    opacity: 0.5;
+    width: 250px;
+    height: 300px;
+}
+
+/* Changement opacité onmouseover */
+
+#el_gandalf:hover img{
+    opacity:1;
+}
+
+/* Css partie Reward 1000 golds coins */
+
+#rewardo{
+    background-color: #e1e1e1;
+    opacity: 0.8;
+    top: 10px;
+    left: 15px;
+    margin: auto;
+    width: 220px;
+    position: absolute;
+    padding: 10px 13px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* Couleur des golds */
+
+#rewardo span{
+    color: #FE6703;
+    font-weight: normal;
+}
+
+/* Disparition reward onmouseover */
+
+#el_gandalf:hover #rewardo{
+    display:none;
+}
+
+/* Css titre gandalf */
+
+#namo h3{
+    position: absolute;
+    color: #FFFFFF;
+    top: 104px;
+    width: 100%;
+    font-size: 2.9em;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Deplacement titre onmouseover */
+
+#el_gandalf:hover h3{
+    font-size: 1.2em;
+    top:240px;
+}
